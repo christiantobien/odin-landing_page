@@ -19,7 +19,7 @@ a{
 .navigation{
   display: flex;
   justify-content: space-between;
-  padding: 0 10vh;
+  padding: 2em 4em;
 }
 
 .container-main{
@@ -35,27 +35,45 @@ a{
 .header-info{
   display: flex;
   flex-direction: column;
-  padding-left: 10vh;
+  padding: 1em 2em;
+}
+
+.header-subtext{
+  font-size: 24px;
+  text-align: left;
+  font-weight: 100;
+  margin: 1em 0;
 }
 
 #web-img{
-  padding-right: 10vh;
+  padding-right: 2em;
+  width: 10em;
 }
 
 .subtext{
   font-size: 18px;
-  color: #E5E7EB;
+  color: #1F2937;
   text-align: center;
+  padding: 1em 0;
 }
 
 .button{
   background-color: #3882F6;
+  color: #F9FAF8;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #F9FAF8;
+  padding: 0.75em 1.5em;
+  border-radius: 1em;
 }
 
 .item-main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2em 8em;
 }
 
 .item-content{
@@ -68,12 +86,14 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1em;
 }
 
 .item-header h2{
   color:#1F2937;
   font-size: 36px;
   font-weight: 900;
+  padding: 18px 0;
 }
 
 .quote-main{
@@ -85,16 +105,28 @@ color: #1F2937;
 font-style: italic;
 font-size: 36px;
 font-weight: 300;
-padding: 36px;
+padding: 2em 4em 1em 4em;
+}
+
+.author{
+  text-align: end;
+  font-weight: bold;
+  padding: 1em;
+  margin-right: 8em;
 }
 
 .sign-main{
   display: flex;
+  justify-content: space-between;
   background-color: #3882F6;
   color: #F9FAF8;
-  padding: 36px;
-  margin:48px;
-
+  padding: 2em 6em;
+  margin: 4em 6em;
 }
 
+.footer{
+  display: flex;
+  padding: 2em 0;
+  justify-content: center;
+}
 
